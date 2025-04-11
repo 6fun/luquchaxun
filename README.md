@@ -6,8 +6,8 @@
 
 3. 本系统采用把数据全部读入内存后在内存中查询，性能极好。
 
-4. 本系统是采用 python 开发，依赖多个开源框架，安装后请在命令行运行如下指令，即可安装成功依赖。
+4. 本系统是采用 python 开发，依赖多个开源框架。安装 Python 后请在命令行运行如下指令，即可安装所需依赖。
 > pip install fastapi uvicorn pandas openpyxl python-multipart itsdangerous
 
-5. 运行，windows下可以直接点击 run.bat运行，可以使用命令行 运行如下指令：
+5. 运行，windows 下可以进入目录，直接点击 run.bat运行，可以使用命令行 运行如下指令：
 > uvicorn main:app --reload
